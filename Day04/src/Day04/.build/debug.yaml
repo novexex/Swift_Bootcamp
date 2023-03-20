@@ -1,0 +1,55 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "Day04_01-debug.exe": ["<Day04_01-debug.exe>"]
+  "Day04_01-debug.module": ["<Day04_01-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<Day04_01-debug.exe>","<Day04_01-debug.module>"]
+  "test": ["<Day04_01-debug.exe>","<Day04_01-debug.module>"]
+default: "main"
+nodes:
+  "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_01/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/Day04_01.m.o":
+    tool: clang
+    inputs: ["/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_01/Day04_01.m"]
+    outputs: ["/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/Day04_01.m.o"]
+    description: "Compiling Day04_01 Day04_01.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Day04_01","-I","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_01/include","-fmodules-cache-path=/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/Day04_01.m.d","-c","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_01/Day04_01.m","-o","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/Day04_01.m.o"]
+    deps: "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/Day04_01.m.d"
+
+  "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/main.m.o":
+    tool: clang
+    inputs: ["/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_01/main.m"]
+    outputs: ["/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/main.m.o"]
+    description: "Compiling Day04_01 main.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=Day04_01","-I","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_01/include","-fmodules-cache-path=/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/main.m.d","-c","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_01/main.m","-o","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/main.m.o"]
+    deps: "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/main.m.d"
+
+  "<Day04_01-debug.exe>":
+    tool: phony
+    inputs: ["/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01"]
+    outputs: ["<Day04_01-debug.exe>"]
+
+  "<Day04_01-debug.module>":
+    tool: phony
+    inputs: ["/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/Day04_01.m.o","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/main.m.o"]
+    outputs: ["<Day04_01-debug.module>"]
+
+  "C.Day04_01-debug.exe":
+    tool: shell
+    inputs: ["/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/Day04_01.m.o","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.build/main.m.o"]
+    outputs: ["/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/Day04_01"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug","-o","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01","-module-name","Day04_01","-emit-executable","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_01.product/Objects.LinkFileList","-runtime-compatibility-version","none","-target","arm64-apple-macosx10.13","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_01/","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Package.swift","/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

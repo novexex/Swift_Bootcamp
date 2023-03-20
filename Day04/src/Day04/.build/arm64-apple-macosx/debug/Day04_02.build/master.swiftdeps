@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "99ab7f554688795ea642dec67c33c6d6e2b23e4b5f44cf3ab9594829e207ab79"
+build_start_time: [1679249547, 477574825]
+build_end_time: [1679249547, 744307994]
+inputs:
+  "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_02/Day04_02.swift": !private [1679155366, 241156101]

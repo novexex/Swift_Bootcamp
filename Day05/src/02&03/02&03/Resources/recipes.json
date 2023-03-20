@@ -1,0 +1,61 @@
+{
+    "recipes": [{
+            "name": "Mint Chicken",
+            "description": "This is an easy and delicious recipe for chicken in a creamy mint sauce.",
+            "steps": [
+                "Heat the oil in a large skillet over medium heat. Add the chicken and cook until browned on all sides, about 5 minutes.",
+                "Add the garlic, ginger, and green chilies and cook for 1-2 minutes, stirring constantly.",
+                "Add the mint leaves and cook for another minute.",
+                "Stir in the cream and salt, reduce the heat to low, and simmer for 5-7 minutes, or until the chicken is cooked through and the sauce has thickened slightly."
+            ]
+        },
+        {
+            "name": "Strawberry Spinach Salad",
+            "description": "A delicious and refreshing salad with strawberries, spinach, and pecans.",
+            "steps": [
+                "In a large bowl, combine the spinach, strawberries, and pecans.",
+                "In a separate bowl, whisk together the oil, vinegar, sugar, and poppy seeds.",
+                "Pour the dressing over the salad and toss to combine."
+            ]
+        },
+        {
+            "name": "Roasted Asparagus with Parmesan",
+            "description": "This is a simple and delicious recipe for roasted asparagus with Parmesan cheese.",
+            "steps": [
+                "Preheat the oven to 425 degrees F (220 degrees C).",
+                "Place the asparagus on a baking sheet and drizzle with olive oil.",
+                "Season with salt and pepper, and sprinkle with Parmesan cheese.",
+                "Bake for 12-15 minutes, or until the asparagus is tender and the cheese is melted and golden brown."
+            ]
+        },
+        {
+            "name": "Pasta Primavera",
+            "description": "A delicious and colorful pasta dish with fresh vegetables.",
+            "steps": [
+                "Cook the pasta in a large pot of salted boiling water until al dente. Drain and set aside.",
+                "Heat the olive oil in a large skillet over medium heat. Add the garlic and cook for 1-2 minutes, stirring constantly.",
+                "Add the vegetables and cook for 5-7 minutes, or until tender.",
+                "Stir in the cooked pasta and Parmesan cheese, and toss to combine."
+            ]
+        },
+        {
+            "name": "Strawberry Rhubarb Crisp",
+            "description": "This is a delicious and easy recipe for a sweet and crunchy dessert.",
+            "steps": [
+                "Preheat the oven to 375 degrees F (190 degrees C).",
+                "In a large bowl, combine the rhubarb, strawberries, sugar, and cornstarch.",
+                "In a separate bowl, mix together the flour, oats, brown sugar, and butter until crumbly.",
+                "Spread the fruit mixture into a 9x13 inch baking dish, and sprinkle the crumb mixture over the top.",
+                "Bake for 45-50 minutes, or until the top is golden brown and the fruit is bubbling."
+            ]
+        },
+        {
+            "name": "Glazed Carrots",
+            "description": "A delicious and easy recipe for glazed carrots.",
+            "steps": [
+                "Place carrots in a large saucepan and cover with water; bring to a boil. Reduce heat to medium-low and simmer until tender, 15 to 20 minutes. Drain.",
+                "Combine brown sugar, butter, salt, and black pepper in a large skillet over medium heat. Cook, stirring occasionally, until sugar is dissolved and butter is melted, about 2 minutes.",
+                "Add carrots to the skillet and stir until coated with the brown sugar mixture. Cook until carrots are glazed, 5 to 7 minutes. Serve hot."
+            ]
+        }]
+}

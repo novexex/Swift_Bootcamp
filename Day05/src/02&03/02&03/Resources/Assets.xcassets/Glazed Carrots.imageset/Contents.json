@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "glazed_carrots.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_02.build/master.swiftdeps"
+  },
+  "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/Sources/Day04_02/Day04_02.swift": {
+    "dependencies": "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_02.build/Day04_02.d",
+    "object": "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_02.build/Day04_02.swift.o",
+    "swiftmodule": "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_02.build/Day04_02~partial.swiftmodule",
+    "swift-dependencies": "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/Day04/.build/arm64-apple-macosx/debug/Day04_02.build/Day04_02.swiftdeps"
+  }
+}

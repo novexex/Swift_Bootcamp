@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "myobjcexecutable",
+          "kind" : "fileSystem",
+          "location" : "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/MyObjCExecutable",
+          "name" : "MyObjCExecutable"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/novex/Documents/Code/21School/Swift_Bootcamp/Swift_Bootcamp._Day04-1/src/MyObjCExecutable"
+        },
+        "subpath" : "myobjcexecutable"
+      }
+    ]
+  },
+  "version" : 5
+}

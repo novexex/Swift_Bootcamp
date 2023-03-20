@@ -1,0 +1,4 @@
+module ObjCModule {
+    header "Day04_02.h"
+    export *
+}
